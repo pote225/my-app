@@ -7,4 +7,4 @@ def hello(name):
 
 @application.route('/sum/<inp>') 
 def calc(inp):
-    return 'sum(' inp + ') = ' + str(sum([float(i) for i in inp.split(',')]))
+    return 'sum(' + inp + ') = ' + str(sum([float(i) for i in inp.split(',')]))
