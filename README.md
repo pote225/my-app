@@ -1,5 +1,4 @@
-# my-app
-My App (my-app)
+# my-app (my-app)
 
 **Step1 - Create local application and run on local**
 
@@ -33,11 +32,14 @@ http://127.0.0.1:5000/hello/Milind
 http://127.0.0.1:5000/sum/12.2,12
 
 **Step2 - Connect with Github and create Github actions**
-  Create repository as my-app in github
+
+Create repository as my-app in github
 Sync using below commands
 git clone <>/my-app
 move from my-app-tmp to my-app
 git add –all
 git commit
 git push
+  
+
 
