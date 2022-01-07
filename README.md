@@ -1,8 +1,7 @@
 # my-app
 My App (my-app)
 
-Step1
-
+**Step1 - Create local application and run on local**
 Installation
 Install python
 Install python virtual env
@@ -32,7 +31,7 @@ py -m flask run
 http://127.0.0.1:5000/hello/Milind
 http://127.0.0.1:5000/sum/12.2,12
 
-Step2
+**Step2 - Connect with Github and create Github actions**
 Create repository as my-app in github
 Sync using below commands
 git clone <>/my-app
