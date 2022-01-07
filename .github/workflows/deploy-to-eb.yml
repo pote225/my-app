@@ -27,7 +27,7 @@ jobs:
       - name: Create new ElasticBeanstalk Application Version
         run: |
           aws elasticbeanstalk create-application-version \
-          --application-name MyAwesomeApp \
+          --application-name my-app \
           --source-bundle S3Bucket="my-awesome-app-deploy-milind",S3Key="deploy_package.zip" \
           --version-label "ver-${{ github.sha }}" \
           --description "commit-sha-${{ github.sha }}"
